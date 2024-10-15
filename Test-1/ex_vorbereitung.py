@@ -1,4 +1,4 @@
-
+'''
 #Schreiben Sie eine Funktion greetWorld() ohne Rückgabewert, die "Guten Tag, Welt!" auf dem Bildschirm ausgibt
 #Rufen Sie die Funktion auf.
 
@@ -71,3 +71,91 @@ print(temp)
 
 #Schreiben Sie eine Funktion, die alle geraden Zahlen aus einer Liste zurückgibt. Verwenden Sie die Liste
 #=[12,7,9,16,18,21,30]
+'''
+
+
+
+
+#Übung 1
+def greetWorld ():
+    print("Guten Tag, Welt!")
+
+greetWorld ()
+
+
+#Übung 2
+
+def greetPerson1(name):
+    print(f"Guten Tag, {name}!")  # Ausgabe der Begrüßung
+
+# Verwende die Funktion mit dem Namen "Anna"
+greetPerson1("Anna")  # Ausgabe: Guten Tag, Anna!
+
+
+#Übung 3
+
+def greetPerson2(name):
+    return f"Guten Tag, {name}!"
+
+ergebnis = greetPerson2 ("Anna")
+print (ergebnis)
+
+def greetPerson2(name):
+    return f"Guten Tag, {name}!"  # Formatierte Zeichenkette mit dem Namen
+
+# Verwende die Funktion mit dem Namen "Anna"
+ergebnis = greetPerson2("Anna")
+print(ergebnis)  # Ausgabe: Guten Tag, Anna!
+
+
+#Übung 4
+
+def printPerson(vorname, nachname, alter):
+    return f"Guten Tag, {vorname}, {nachname}, {alter}!"
+
+ergebnis = printPerson ("Ana", "Eckstein", "24")
+print(ergebnis)
+
+#Schreiben Sie eine Funktion, die alle Elemente in einer Liste verdoppelt. Verwenden Sie die Liste zahlen
+#=[2,5,8,1,6]
+
+zahlen=[2,5,8,1,6]
+
+def myfunc1(zahlen):
+    for element in zahlen:
+        x = element * 2
+        print(f"{element} mal 2 ergiebt {x}")
+
+myfunc1(zahlen)
+
+
+#Schreiben Sie eine Funktion, die alle Elemente einer Liste rückwerts ausgibt. Verwenden Sie die Liste früchte
+#=["Apfel","Banane","Orange","Mango"]
+
+fruchte=["Apfel","Banane","Orange","Mango"]
+def myfunc2(fruchte):
+    fruchte.reverse()
+    print(fruchte)
+myfunc2(fruchte)
+
+
+#Schreiben Sie eine Funktion, die das größte Element in einer Liste von Zahlen zurückgibt. Verwenden Sie die
+#Liste zahlen = [15,22,3,47,9,5]
+
+zahlen1=[15,22,3,47,9,5]
+def myfunc3(zahlen1):
+    print(max(zahlen1))
+
+myfunc3(zahlen1)
+
+#Schreiben Sie eine Funktion, die alle geraden Zahlen aus einer Liste zurückgibt. Verwenden Sie die Liste
+#=[12,7,9,16,18,21,30]
+
+zahlen2=[12,7,9,16,18,21,30]
+def myfunc4(zahlen2):
+    for x in zahlen2:
+        if x % 2 == 0:
+           print(x)
+
+myfunc4(zahlen2)
+
