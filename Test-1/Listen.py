@@ -1,5 +1,5 @@
 from itertools import count
-'''
+
 zahlen=[5,3,8,2,10]
 temp=0
 for einz in zahlen:
@@ -43,7 +43,7 @@ for element in zahlen:
 lst = list(range(1,101))
 lst1 = [x*x+x for x in lst]
 print(lst1)
-'''
+
 def quadrad (trt1):
     return trt1*trt1+trt1
 
