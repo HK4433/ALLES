@@ -71,7 +71,6 @@ print(temp)
 
 #Schreiben Sie eine Funktion, die alle geraden Zahlen aus einer Liste zurückgibt. Verwenden Sie die Liste
 #=[12,7,9,16,18,21,30]
-'''
 
 
 
@@ -158,4 +157,31 @@ def myfunc4(zahlen2):
            print(x)
 
 myfunc4(zahlen2)
+
+
+
+def zahlen(zahlen_1):
+    return [x*2 for x in zahlen_1]
+
+zahlen_1= [1,2,3,4,5]
+r=zahlen_1
+print(r)
+
+
+#Definieren Sie eine Funktion die einen String und eine Int funktion bekommt und es 5 mal aufgerufen wird
+
+name = "Harun"
+i=2
+def myfunc(lol, i):
+    for x in range(i):
+        print(f"{lol}")
+
+myfunc(name, i)
+'''
+#Definieren Sie eine Liste von 1-100 und dann überprüfen ob sie durch 3 Teilbar sind und wenn die durch 3 Teilbar sind sollen sie ausgegeben werden
+
+list=list(range(1,101))
+for i in list:
+    if (i % 3 == 0):
+        print(f"{i} ist Teilbar durch 3")
 
