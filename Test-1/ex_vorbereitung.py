@@ -1,4 +1,4 @@
-'''
+
 #Schreiben Sie eine Funktion greetWorld() ohne Rückgabewert, die "Guten Tag, Welt!" auf dem Bildschirm ausgibt
 #Rufen Sie die Funktion auf.
 
@@ -177,7 +177,7 @@ def myfunc(lol, i):
         print(f"{lol}")
 
 myfunc(name, i)
-'''
+
 #Definieren Sie eine Liste von 1-100 und dann überprüfen ob sie durch 3 Teilbar sind und wenn die durch 3 Teilbar sind sollen sie ausgegeben werden
 
 list=list(range(1,101))
