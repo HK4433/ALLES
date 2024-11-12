@@ -44,9 +44,9 @@ print(t)
 #=[2,5,8,1,6]
 
 zahlen=[2,5,8,1,6]
-def myfunc1
-for element in zahlen:
-    o=element*2
+def myfunc1(sen):
+    for element in zahlen:
+        o=element*2
     print(o)
 
 
@@ -185,3 +185,85 @@ for i in list:
     if (i % 3 == 0):
         print(f"{i} ist Teilbar durch 3")
 
+
+def myfunc(sen):
+    for i in sen:
+        i=i * 2
+        print(f" mal 2 ergiebt {i}")
+
+hallo=[1,2,3,4,5]
+myfunc(hallo)
+
+
+#geraden Zahlen
+
+def myfunc1(ben):
+    for i in ben:
+        if i % 2 == 0:
+            print(f"{i} ist Teilbar durch 2")
+
+hallo=[1,2,3,4,5,6,7,8,9]
+myfunc1(hallo)
+
+
+def myfunc1(biz):
+    ret=(f"Mein Name ist {n}")
+    return ret
+
+n=input("Geben Sie ihren Namen ein: ")
+r=myfunc1(n)
+print(r)
+
+
+#Schreiben Sie eine Funktion printPerson(vorname,nachname,alter), die den Vor- und Nachnamen sowie das Alter
+#einer Person ausgibt
+
+def myfunc(vorname, nachname, alter):
+    return f"Guten Tag, {vorname}, {nachname}, {alter}"
+
+r=myfunc("Harun","Kayaci","21")
+print(r)
+
+
+#Schreiben Sie eine Funktion, die alle Elemente in einer Liste verdoppelt. Verwenden Sie die Liste zahlen
+#=[2,5,8,1,6]
+
+def myfunc(sensiz):
+    for i in sensiz:
+        r=i*2
+        print(f"{i} mal 2 ergibt {r}")
+
+hallo=[1,2,3,4,5]
+myfunc(hallo)
+
+
+#Schreiben Sie eine Funktion, die alle Elemente einer Liste rückwerts ausgibt. Verwenden Sie die Liste früchte
+#=["Apfel","Banane","Orange","Mango"]
+
+def fruechte(bensiz):
+    frucht.reverse()
+
+frucht=["Apfel","Banane","Orange","Mango"]
+fruechte(frucht)
+r=fruechte(frucht)
+print(r)
+
+
+def myfunc(ahi):
+    for i in ahi:
+        r=i%2==0
+        print(f"{i} mal 2 ergiebt {r}")
+
+zahlen=[2,54,22,45,57,59,32]
+myfunc(zahlen)
+
+
+#Schreiben Sie eine Funktion, die das größte Element in einer Liste von Zahlen zurückgibt. Verwenden Sie die
+#Liste zahlen = [15,22,3,47,9,5]
+
+def myfunc(sen):
+    max(myfunc(sen))
+
+Listen = [15,22,3,47,9,5]
+r=myfunc(Listen)
+print(r)
