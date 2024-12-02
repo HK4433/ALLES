@@ -40,12 +40,13 @@ zahlen = [3, 1, 4, 1, 5, 9, 2, 6]
 zahlen.sort()
 print(zahlen)
 
+#Wie oft eine Zahl in eine Liste reinkommt
 zahlen = [3, 1, 4, 4, 5, 4, 2, 6]
 element=4
 anzahl=zahlen.count(element)
 print(f'Die Zahl {element} kommt {anzahl} oft vor')
 
-
+#Die höchste Zahl aus einer Liste herausfinden
 def größtezahl(lol):
     ret= max(zahlen)
     return ret
