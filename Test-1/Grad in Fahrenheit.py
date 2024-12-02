@@ -25,7 +25,6 @@ def myFunc2(fahrenheit):
 r=myFunc2(fahr)
 print(f"{fahr} Fahrenheit sind in Grad umgerechnet {r}")
 '''
-from gzip import write32u
 
 erg=float(input("Wenn Sie Grad zu Fahrenheit umrechnen wollen geben Sie die 1 ein und wenn Sie von Fahrenheit zu Grad umrechnen wollen geben sie die 2 ein: " ))
 
