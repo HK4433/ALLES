@@ -1,4 +1,4 @@
-
+'''
 #Schreiben Sie eine Funktion greetWorld() ohne Rückgabewert, die "Guten Tag, Welt!" auf dem Bildschirm ausgibt
 #Rufen Sie die Funktion auf.
 
@@ -39,7 +39,7 @@ p=input("Nachname?: ")
 g=input("Alter?: ")
 t=printPerson(r,p,g)
 print(t)
-
+'''
 #Schreiben Sie eine Funktion, die alle Elemente in einer Liste verdoppelt. Verwenden Sie die Liste zahlen
 #=[2,5,8,1,6]
 
